@@ -16,6 +16,7 @@ public class ps {
 	}
 	
 	public static String decode(String encodetxt) {
+		String a="ajju";
 		Decoder decoder = Base64.getDecoder();
 		byte[] decode = decoder.decode(encodetxt);
 		return new String(decode);
