@@ -8,6 +8,7 @@ public class ps {
 	
 	int a=10;
 	int j=20;
+	int mbno=807;
 	
 	public static String encode(String txt) {
 		Encoder encoder = Base64.getEncoder();
